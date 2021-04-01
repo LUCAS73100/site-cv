@@ -1,0 +1,28 @@
+.blanc {
+    background-color: rgb(26, 26, 145);
+    color: white;
+    height: 1500px;
+    width: 40%;
+    float: left;
+}
+
+.col2 {
+    height: auto;
+    width: 75%;
+    float: right;
+}
+
+.gris {
+    color: grey;
+    h1 {
+        text-align: center;
+    }
+    .ligne {
+        text-align: center;
+    }
+    .espace {
+        margin: 20px;
+    }
+    .espaceimg {
+        background-image: margin: 0px 300px 300px 300px
+    }
