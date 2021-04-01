@@ -1,4 +1,4 @@
-.blanc{
+.blanc {
     background-color: rgb(26, 26, 145);
     color: white;
     height: 1500px;
@@ -6,30 +6,43 @@
     float: left;
 }
 
-.col2{
+.col2 {
     height: auto;
     width: 68%;
     float: right;
 }
 
-.gris{
+.gris {
     color: grey;
 }
-    h1 {
-        text-align: center;
+
+h1 {
+    text-align: center;
+}
+
+.ligne {
+    text-align: center;
+}
+
+.espace {
+    margin: 30px;
+}
+
+.espaceimg {
+    text-align: center;
+}
+
+.bleuc {
+    color: rgb(39, 15, 179);
+}
+
+@media screen and (max-width: 640px) {
+    .blanc {
+        float: none;
+        width: 100%;
     }
-   
-    .ligne {
-        text-align: center;
+    .col2 {
+        float: none;
+        width: 100%;
     }
-   
-    .espace {
-        margin: 30px;
-    }
-   
-    .espaceimg {
-        background-image: 0px 300px 300px 300px
-    }
-    .bleuc{
-        color: rgb(39, 15, 179);
-    }
+}
