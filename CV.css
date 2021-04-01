@@ -1,28 +1,35 @@
-.blanc {
+.blanc{
     background-color: rgb(26, 26, 145);
     color: white;
     height: 1500px;
-    width: 40%;
+    width: 30%;
     float: left;
 }
 
-.col2 {
+.col2{
     height: auto;
-    width: 75%;
+    width: 68%;
     float: right;
 }
 
-.gris {
+.gris{
     color: grey;
+}
     h1 {
         text-align: center;
     }
+   
     .ligne {
         text-align: center;
     }
+   
     .espace {
-        margin: 20px;
+        margin: 30px;
     }
+   
     .espaceimg {
-        background-image: margin: 0px 300px 300px 300px
+        background-image: 0px 300px 300px 300px
+    }
+    .bleuc{
+        color: rgb(39, 15, 179);
     }
